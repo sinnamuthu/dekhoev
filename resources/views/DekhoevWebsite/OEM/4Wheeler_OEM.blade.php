@@ -510,43 +510,73 @@ float: left;
 
 				<!--- start old module design-->
         
-		<section class="electric-bikes-wrap section-wrap-top"><!--Electric Bikes-->
-				<div class="container">
-				@if(Session::get('new_oem_name'))
-					<h2>  {{Session()->get('new_oem_name')}} Car Models </h2>
-					@endif
-					<section class="row">
-					    @foreach($fourwspecs as $values)
-    						<aside class="col-md-4">
-						        <div class="electric-bike-bx">
-						            <form action="/Four-Wheeler-Product-Details" method="get">
-									@if($values->Modelimage =="")                                        
-									<figure><img src="{{ url('/UploadImages/NewModel/Fourwheelerspecsfeature/4W.png')}}" alt="image" class="img-fluid"></figure>                                        
-							        @endif 
-									@if($values->Modelimage <>"")
-        								<figure><img src="{{ url('/UploadImages/NewModel/Fourwheelerspecsfeature/'. $values->Modelimage)}}" alt="image" class="img-fluid"></figure>
-									@endif	
-
-        								<p class="text-center tl">{{$values->Model_Name}} - {{$values->Model_Description}}</p>
-        								<p class="text-center">₹{{$values->Price_Ex_Showroom }}/-</p>
-        								<input type="hidden" name="model_name" value="{{$values->Model_Name}}">
-										<input type="hidden" name="OEM_name" value="{{$values->OEM_name}}">
-        								<input type="hidden" name="model_brand" value="{{$values->Model_Family_Brand_Name}}">
-        								<input type="hidden" name="model_id" value="{{$values->id}}">
-        								<center><button class="btn-view">View Details</button></center>
-    								</form>
-								</div>
-    						</aside>
-						</form>
-						@endforeach
-					</section>	
-				</div>
-			</section> 
+		
 			<!--./Electric Bikes-->
 
 			<!--- End old module design-->
 
 			<!--start new design-->
+
+			<section class="electric-bikes-wrap section-wrap-top"><!--Electric Bikes-->
+				<div class="container">
+					<h2 class='headtitle'>Cars in India</h2>
+					<section class="row">
+					    @foreach($fourwspecs as $values)
+    						<!-- <aside class="col-md-3">
+						        <div class="electric-bike-bx">
+						            <form action="/Four-Wheeler-Product-Details" method="get">
+										@if($values->Modelimage =="")                                        
+									<figure><img src="{{ url('/UploadImages/NewModel/Fourwheelerspecsfeature/4W.png')}}" alt="{{$values->altimageget}}" class="img-fluid productimage"></figure>                                        
+							        @endif 
+									@if($values->Modelimage <>"")
+        								<figure><img src="{{ url('/UploadImages/NewModel/Fourwheelerspecsfeature/'. $values->Modelimage)}}" alt="{{$values->altimageget}}" class="img-fluid productimage"></figure>
+									@endif
+										<p class="tl font-16">{{$values->Model_Name}}  - {{$values->Model_Description}}</p>
+										<br>
+        								<p class="font-16">₹{{ $values->Price_Ex_Showroom}}/-</p>
+        								<input type="hidden" name="model_name" value="{{$values->Model_Name}}">
+										<input type="hidden" name="OEM_name" value="{{$values->OEM_name}}">
+        								<input type="hidden" name="model_brand" value="{{$values->Model_Family_Brand_Name}}">
+        								<input type="hidden" name="model_id" value="{{$values->id}}">
+        								<center><button class="btn-view view-button">View Details</button></center>
+    								</form>
+								</div>
+    						</aside> -->
+
+							<aside class="col-md-3">
+						        <div class="electric-bike-bx">
+								<!-- <span class="ev-expand rightstart"><span class="ev-milstart ev-dekho"><span class="bimage">{{$values->Charging_Time__Estimated_}}</span> <span class='tag-data'>Min</span></span></span> -->
+							
+						            <div class="imagecontain">
+										@if($values->Modelimage =="")                                        
+									<figure><img src="{{ url('/UploadImages/NewModel/Fourwheelerspecsfeature/4W.png')}}" alt="{{$values->altimageget}}" class="img-fluid productimage"></figure>                                        
+							        @endif 
+									@if($values->Modelimage <>"")
+        								<figure><img src="{{ url('/UploadImages/NewModel/Fourwheelerspecsfeature/'. $values->Modelimage)}}" alt="{{$values->altimageget}}" class="img-fluid productimage"></figure>
+									@endif
+										<p class="tl font-16">{{$values->Model_Name}}  - {{$values->Model_Description}}</p>
+										<br>
+        								<p class="font-16">₹{{ $values->Price_Ex_Showroom}}/-</p>
+        								<!-- <input type="hidden" name="model_name" value="{{$values->Model_Name}}">
+										<input type="hidden" name="OEM_name" value="{{$values->OEM_name}}">
+        								<input type="hidden" name="model_brand" value="{{$values->Model_Family_Brand_Name}}">
+        								<input type="hidden" name="model_id" value="{{$values->id}}"> -->
+        								<!-- <center><button class="btn-view view-button">View Details</button></center> -->
+										<div class="top-right"><span class="ev-expand rightend"><span class="ev-milend ev-dekho"><span class="bimage">{{$values->Driving_Range_on_Full_Charge__AvgEstimated__Mileage}}</span><span class='tag-data'> Kms</span></span></span></div>
+										<?php	
+										$Model_Name = str_replace(" ","_",$values->Model_Name);
+											$Model_Description = str_replace(" ","_",$values->Model_Description);
+											?><a href="#" class='postbutton productshare sharebutton' style='margin-top: 0px !important;'id="{{ url('Four-Wheeler/'.$Model_Name.'-'.$Model_Description)}}" data="{{$values->Model_Name}}-{{$values->Model_Description}}"><img src="https://dekhoev.com/WebsiteImages/share.png" alt="sharebutton" style="width:30px;height:30px;"></a>
+										<button class="btn-view view-button"><a href="{{ url('Four-Wheeler/'.$Model_Name.'-'.$Model_Description) }}" class="btn-link">  View Details</a></button>
+									</div>
+								</div>
+    						</aside>
+											
+						@endforeach
+						<div id="pagination-container"></div>
+					</section>	
+				</div>
+			</section>
 			<!--end new design-->
     
 			<!-- <section class="popular-bikes-wrap section-wrap-btm">Electric Bikes
