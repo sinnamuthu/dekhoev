@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+
+RewriteEngine On
+
+# Redirect to HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /public/$1 [L]
+
+# If using Laravel 5.x or above, use the following line instead
+RewriteRule ^ index.php [L]
+</IfModule>
+

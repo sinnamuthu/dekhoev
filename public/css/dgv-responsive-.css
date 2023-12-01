@@ -1,0 +1,410 @@
+@media (min-width: 576px) {
+	.modal .modal-dialog {max-width: 90%;}
+
+}
+
+@media (min-width: 768px) {
+	.modal .modal-dialog {max-width: 740px;}
+
+}
+
+@media (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+	.modal .modal-dialog{max-width:780px;}
+
+}	
+
+@media (min-width: 1500px) {
+	.container{max-width:1352px;}
+
+}
+
+@media(max-width:1599px){
+	header {padding-top: 20px;padding-bottom: 20px;}
+	.hm-banner{height:650px}
+	.hm-banner.banner1{background-size: 1782px auto;background-position: left -69px top;}
+	.hm-banner.banner1 figure img{width:520px}
+	.hm-banner.banner1 .cont-blk-rgt {padding: 120px 0 0 186px;}
+	.hm-banner.banner2 {background-size: 1782px auto;background-position: right -35px bottom;}
+	.hm-banner.banner2 figure img{width:520px}
+	.hm-banner.banner3 {background-size: 1782px auto;background-position: left -180px bottom;}
+	.hm-banner.banner3 .cont-blk-rgt{width: 40%;}
+	.hm-banner.banner3 figure img{width:520px}
+
+}
+
+@media(max-width:1439px){
+	h2,.star-blk .ic-star-link {font-size: 28px;}
+	.key-feature ul li{padding:0 12px;}
+	.prd-details .drop-bx .form-select,.review .review-blk h4{font-size:18px;}
+	.prd-item-desp p{font-size:20px;}
+	.color-blk .color-blk-in .pos,.color-blk .color-blk-in .neg{padding-left:100px;}
+	.prd-item-desp h3{font-size:24px;}
+	.review .review-blk p{font-size:16px;}
+	.electric-bike-bx p{font-size:20px;}
+	.electric-bike-bx p.tl{min-height:70px;}
+	.section-wrap {padding-top: 50px;padding-bottom: 50px;}
+	.gyaan-bx h3 {font-size: 18px;}
+	.popu-bx .item-desc h3 {font-size: 22px;}
+	.popu-bx .item-desc small {font-size: 20px;}
+	.hm-banner{background-size:1782px auto;height:650px;}
+	.table-scroll th {max-width:205px}
+	.table-scroll td{max-width:145px;min-width:100px}
+	.comparision-table-tp .compare-list .compare-list-bx h4{font-size:18px;}
+	.abt p{font-size:18px}
+	.abt h3{font-size:24px}
+	.hm-gyaan-bx.gyaan h2{min-height:110px}
+	.hm-banner.banner1 .cont-blk-rgt {padding: 120px 0 0 217px;}
+	.hm-banner.banner1 figure img {width: 452px;}
+
+}
+
+@media(max-width:1365px){
+	h2,.star-blk .ic-star-link {font-size: 26px;}
+	.wheeler-bx p {font-size: 20px;}
+	.comparision-table-tp .bread-comp p{text-align:center;padding-left:0;font-size:22px}
+	.brands-slider .slick-slide{height:180px}
+	.hm-banner.banner1 .cont-blk-rgt {padding: 30px 0 0 136px;}
+	.hm-banner a img {width: 170px;}
+	.hm-banner.banner2 .cont-blk-lft{padding-left:25px}
+	.hm-banner.banner2 figure img {width: 450px;}
+	.hm-banner.banner3 figure img {width: 450px;}
+
+}
+
+@media(max-width:1199px){
+	.prd-details .drop-bx .form-select,.review .review-blk h4{font-size:16px;}
+	.key-feature ul li p{font-size:16px;}
+	.key-feature ul li {padding: 0 5px;}
+	.prd-item-desp ul.tab li a {font-size: 18px;padding-left: 12px;padding-right: 12px;}
+	.prd-item-desp h3 {font-size: 22px;margin-bottom:20px;}
+	.prd-item-desp p {font-size: 18px;}
+	.color-blk .color-blk-in .pos, .color-blk .color-blk-in .neg {padding-left: 45px;}
+	.popu-bx figure img{width:100%}
+	.popu-bx{padding:20px;}
+	.popu-bx .item-desc .item-div{width:9%;}
+	.popu-bx .item-desc h3 {font-size: 20px;}
+	.popu-bx .item-desc small {font-size: 18px;}
+	.btn-pry {padding: 8px 12px;font-size: 16px;}
+	/*.hm-banner {background-size: 1650px auto;height: 600px;}
+	.hm-banner .search-bx p{font-size:16px;margin-bottom:10px;}
+	.hm-banner .search-bx input{font-size:15px;}*/
+	.wheeler-bx p {font-size: 18px;}
+	.navbar-light .navbar-nav .nav-link,.dropdown-item{font-size: 16px;padding: 3px 15px;}
+	.dropdown-item{padding:5px 15px;}
+	.brand figure{height:150px;}
+	.electric-bike-bx p {font-size: 18px;line-height: 22px;}
+	.electric-bike-bx p.tl {min-height:56px}
+	.table-scroll th {max-width:250px}
+	.abt p{font-size:17px}
+	.electric-bike-bx .btn-view{padding:5px}
+	.abt h3{font-size:22px}
+	.abt h4{font-size:20px}
+	.hm-gyaan-bx h2 {font-size:18px;min-height:82px}
+	.hm-gyaan-bx h3 {font-size:16px;min-height:112px}
+	.hm-gyaan-bx h3.read a {font-size:18px}
+	.view-mdl figure h6 {background: rgba(0,0,0,0.5);color:#fff;}
+	.hm-gyaan-bx.gyaan h2 {font-size:18px;min-height: 94px;}
+	.hm-gyaan-bx.gyaan h3{min-height: 144px;}
+	.hm-banner{height: 600px;}
+	.hm-banner.banner1 {background-size: 1646px auto;}
+	.hm-banner.banner1 .cont-blk-rgt {padding: 30px 0 0 115px;}
+	.hm-banner.banner1 figure img {width: 363px;}
+	.hm-banner.banner2 {background-size: 1646px auto;}
+	.hm-banner.banner2 figure img {width: 363px;}
+	.hm-banner.banner2 .cont-blk-lft{padding-left:50px;top: 34%;}
+	.hm-banner.banner3 {background-size: 1646px auto;background-position: left -445px bottom;}
+	.hm-banner.banner3 figure img {width: 363px;}
+
+}
+
+@media(max-width:991px){
+	.prd-item-desp ul.tab li {padding-left: 5px;padding-right: 5px;}
+	.prd-item-desp ul.tab li a {font-size: 16px;padding-left: 10px;padding-right: 10px;}
+	.prd-item-desp .prd-item-blk2 h4{font-size:20px;}
+	h2{padding-bottom:20px;}
+	.navbar-light {position:relative;}
+	.navbar-light .navbar-collapse{position: absolute;top: 57px;padding: 15px 0;border-radius: 9px;right: 10px;z-index:3;width:100%;}
+	.navbar-light .navbar-collapse:before{position: absolute;top: 3px;border-color: #e5e5e5;content:'';border-bottom:12px solid #e5e5e5;border-left:12px solid transparent;border-right:12px solid transparent;right: 10px;}
+	.nav-item{padding-bottom:8px;}
+	.navbar-light .navbar-nav .nav-link{font-size:16px;padding:0 15px;}
+	.navbar-light .navbar-nav{background: #e5e5e5;height: 250px;overflow-y: scroll;border-radius: 9px;padding:10px}
+	.popu-bx .item-desc .item-cnt{width:43%;}
+	.popu-bx .item-desc small {font-size: 16px;}
+	.wheeler-bx p {font-size: 16px;min-height: 50px;}
+	.gyaan-bx h3 {font-size: 16px;}
+	.hm-banner .search-bx{margin-bottom:20px;}
+	.popular-bikes-slider .electric-bike-bx, .popular-bikes-slider2 .electric-bike-bx{margin:7px;}
+	.electric-bike-bx p {font-size: 16px;}
+	.prd-details{margin-top:30px}
+	.prd-item-desp .prd-item-blk{margin-bottom:30px}
+	.add-vehicle{padding:0}
+	.compare-wrap-in .add-vehicle .add-vehicle-in {padding: 10px;}
+	.add-vehicle .add-vehicle-in p {font-size: 18px;}
+	.table-scroll th {max-width:310px;font-size:14px}
+	.table-scroll td{font-size:13px;}
+	.comparision-table-tp .bread-comp p{font-size:18px;}
+	.electric-bike-bx p.tl{min-height:78px}
+	.hm-gyaan-bx.gyaan.dt{padding:0}
+	.hm-gyaan-bx.gyaan.dt p{font-size:20px}
+	.hm-gyaan-bx h2{min-height:125px}
+	.hm-gyaan-bx h3{min-height:160px}
+	.hm-gyaan-bx.gyaan h2{min-height:112px}
+	.hm-gyaan-bx.gyaan h3{min-height:190px}
+	footer ul li a{font-size:16px}
+	ul.social li a{font-size:16px}
+	.hm-banner {height: 580px;}
+	.hm-banner.banner1 {background-size: 1590px auto;background-position: left -169px top;}
+	.hm-banner.banner1 .cont-blk-rgt {padding: 15px 0 0 0;}
+	.hm-banner.banner2 {background-size: 1590px auto;}
+	.hm-banner.banner2 .cont-blk-lft {top: 20%;}
+	.hm-banner.banner3 {background-position: left -554px bottom;}
+	.hm-banner.banner3 .cont-blk-rgt {width: 46%;}
+	.hm-banner.banner3 figure img {width: 335px;}
+
+
+}
+
+@media(max-width:767px){
+	.color-blk .color-blk-in figure img{width:100%;}
+	h2, .star-blk .ic-star-link {font-size: 24px;}
+	.prd-details p.price{font-size:22px;}
+	.prd-details .star-blk .ic-star-link{font-size:16px;}
+	.prd-item-desp ul.tab{height:auto;}
+	.prd-item-desp ul.tab li {padding:5px;border-top:1px solid #e5e5e5;width:100%}
+	.prd-item-desp ul.tab li:first-child {padding-top:0px;border-top:0;display:none}
+	.prd-item-desp ul.tab li:nth-child(2) {padding-top:0px;border-top:0;}
+	.prd-item-desp ul.tab li a {font-size: 14px;padding-left: 7px;padding-right: 7px;}
+	.prd-item-desp .prd-item-blk {padding: 20px;margin-bottom: 30px;}
+	.prd-item-desp h3 {font-size: 20px;margin-bottom: 15px;}
+	.prd-item-desp p {font-size: 16px;line-height:26px;}
+	.prd-item-desp .prd-item-blk2 h4{margin-left:0;margin-bottom:15px;background-size: 30px auto;padding-left: 35px;padding-top: 12px;height:40px;}
+	table.dgv2{margin-left:30px;}
+	.prd-item-desp .prd-item-blk2 .view-more{padding-left:40px;}
+	.color-blk .color-blk-in .pos{margin-bottom:25px;}
+	.prd-faq .accordion-button {padding: 10px;}
+	.prd-faq .accordion-button::before{font-size:30px;padding-left:20px;padding-right:20px;}
+	.prd-faq .accordion-body{margin-left:60px;}
+	.user-review-blk .nav-tabs .nav-link {font-size: 18px;padding: 5px 20px;margin-right: 15px;}
+	.btn-pry{font-size:16px;line-height:18px;}
+	.btn-pry.write{padding: 10px 10px 10px 42px;font-size:14px;}
+	.btn-pry.write:before{background-size:18px auto;left:10px;}
+	.user-review-blk{padding:30px 15px;}
+	.popular-bikes.best{padding-bottom:0;}
+	table.dgv3{width: calc(100% - 35px);}
+	footer figure.ftr-logo img{width:100%;}
+	footer ul li a{font-size:18px;}
+	.section-wrap {padding-top: 40px;padding-bottom: 40px;}
+	.wheeler-bx{margin-bottom:25px;}
+	.wheeler-bx p{min-height:auto;}
+	.add-vehicle{padding:5px;}
+	.add-vehicle .add-vehicle-in figure img{width:123px;height:auto;}
+	.compare-wrap-in .add-vehicle .add-vehicle-in figure img{width:auto;height:auto}
+	.add-vehicle .add-vehicle-in p{font-size:16px;}
+	.modal .search-wrap .item-cnt p{font-size:18px;}
+	.modal .search-wrap .item-cnt p.grn{font-size:16px;}
+	.modal .search button{top:2px;height:46px;right:3px;}
+	.modal .search input{height:50px;}
+	.modal .search-wrap .item-cnt .item-cnt-in{position:relative;padding-bottom: 10px;}
+	.table-scroll th{white-space: normal;}
+	.hm-banner {background-size: 1373px auto;height: 500px;}
+	.brand figure{height:175px}
+	.prd-details .btn-pry{padding: 10px 15px 10px 48px;background-size: 29px auto;width:100%}
+	/*.btn-pry.write {padding: 10px 10px 10px 10px;font-size:14px;}*/
+	.owner-signin-form label, .auto-blogger-form label{font-size:16px;line-height:29px;padding-left:5px}
+	.comparision-table-tp .compare-list li::before {z-index:2}
+	.comparision-table-tp .bread-comp p{font-size:16px;padding-bottom:20px}
+	.comparision-table-tp .compare-list .compare-list-bx figure img{height:auto;}
+	.comparision-table-tp .compare-list .compare-list-bx h4{font-size:16px;}
+	.comparision-table-tp .compare-list li{padding:5px;}
+	.electric-bike-bx p.tl{min-height:auto}
+	.form-select{font-size:14px}
+	.abt p{font-size:16px;text-align: justify}
+	.navbar-brand img{width:120px}
+	.electric-bike-bx .btn-view{font-size:17px}
+	#return-to-top{width:40px;height:40px;padding-top:7px}
+	#return-to-top img{width:16px;}
+	.abt h2{font-size:26px}
+	.abt h3{font-size:21px}
+	.abt h4{font-size:19px}	
+	.hm-gyaan-bx h2{min-height:auto}
+	.hm-gyaan-bx h3{min-height:auto}
+	.hm-gyaan-bx {margin-bottom:40px;}
+	.hm-gyaan-bx.gyaan.dt p{font-size:18px}
+	.hm-gyaan-bx.gyaan h2{font-size:20px}
+	.single-prd .prd-image h2{display:block}
+	.single-prd .prd-details h2{display:none}
+	table.dgv td, table.dgv th{font-size:14px;}
+	table.dgv tr th:first-child{width:65%}
+	table.dgv tr td:first-child{width:65%}
+	.hm-gyaan-bx.gyaan h2{min-height:auto}
+	.hm-gyaan-bx.gyaan h3{min-height:auto}
+	.prd-item-desp h5{font-size:16px;}
+	.option-heading{position:relative;cursor:pointer}
+	.option-heading:before{position:absolute;content: " ";right:0;top:12px;border-left:12px solid transparent;border-right:12px solid transparent;border-top:12px solid #F17929}
+	.option-heading.is-active:before {border-top:0;border-bottom:12px solid #F17929}
+	.is-hidden{display: none;}
+	.brands-slider .slick-slide{height:130px}
+	ul.social li{width:100%}
+	ul.social li a{font-size:15px}
+	.hm-banner{height: 450px;}
+	.hm-banner.banner1 {background-image: url('https://dekhoev.com/WebsiteImages/hm-bannner-mg-comet-mbl-bg.png');}
+	.hm-banner.banner2 {background-image: url('https://dekhoev.com/WebsiteImages/hm-bannner-nexon-mbl-bg.png');}
+	.hm-banner.banner3 {background-image: url('https://dekhoev.com/WebsiteImages/hm-bannner-ather-mbl2.png');}
+	.hm-banner.banner1,.hm-banner.banner2{background-size: 768px auto;background-position: left top;}
+	.hm-banner.banner1 .cont-blk-lft {position: absolute;bottom: 0;left: 0;padding:0;width: 100%;display: block}
+	.hm-banner.banner1 .cont-blk-lft figure{margin:0}
+	.hm-banner.banner1 .cont-blk-lft figure img{width:550px}
+	.hm-banner.banner1 .cont-blk-rgt {padding: 0;position: absolute;top: 18px;left: auto;width: auto;right:15px}
+	.hm-banner.banner1 .cont-blk-rgt figure{background: rgba(255,255,255,0.5);padding: 10px;width:100%}
+	.hm-banner.banner2 .cont-blk-rgt {position: absolute;bottom: -20px;right: 0;width: auto;padding:0;display: block;}
+	.hm-banner.banner2 .cont-blk-rgt figure img{width:585px}
+	.hm-banner.banner2 figure img{width:440px}
+	.hm-banner a img {width: 135px;}
+	.hm-banner.banner3 {background-size: 850px auto;background-position: left -83px bottom;}
+	.hm-banner.banner3 .cont-blk-rgt figure{background:rgba(0,0,0,0.5);padding: 10px;}
+	.hm-banner.banner3 figure img{width:440px}
+	.hm-banner.banner3 .cont-blk-rgt{top:auto;bottom:0;width: auto;padding-right: 0;right: 15px;}
+	.hm-banner.banner3 figure img {width: 212px;}
+
+
+}
+
+@media(max-width: 600px) {
+	table.dgv3 {border: 0;}
+	table.dgv3 thead {border: none;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+	table.dgv3 tr {border-bottom: 3px solid #ddd;display: block;margin-bottom: .625em;}
+	table.dgv3 td {border-bottom: 1px solid #ddd;display: block;font-size: .8em;}
+	table.dgv3 td::before {content: attr(data-label);float: left;font-weight: bold;text-transform: uppercase;}
+	table.dgv3 td:last-child {border-bottom: 0;}
+	/*.hm-banner {background-size: 1234px auto;height: 450px;}*/
+	.navbar-light .navbar-nav .nav-link,.dropdown-item{font-size: 15px;}
+	.compare-wrap-in{padding:15px;}
+
+}
+
+@media(max-width:575px){
+	.key-feature ul li {padding: 10px 20px;width:48%;}
+	.user-review-blk .nav-tabs .nav-link {font-size: 16px;padding: 5px 15px;margin-right: 10px;}
+	h2, .star-blk .ic-star-link {font-size: 22px;}
+	h2{padding-bottom:15px;}
+	.prd-faq .accordion-button::before {font-size: 22px;padding-left: 10px;padding-right: 15px;}
+	.prd-faq .accordion-body {margin-left: 50px;}
+	.color-blk .color-blk-in .pos ul li,.color-blk .color-blk-in .neg ul li{font-size:16px;}
+	.form-check{padding-left:15px;}
+	.color-blk .color-blk-in ul.var li .form-check-input {width: 35px;height: 35px;}
+	.single-prd .nav-tabs{width:100%;margin-top:15px}
+	.single-prd .nav-tabs .nav-item {padding-bottom: 15px;display: inline-block;width: 24%;}
+	.single-prd .tab-content{width:100%;}
+	.prd-details {padding-top:40px;margin-top: 0}
+	.prd-details .btn-pry{padding: 10px 15px 10px 47px;background-size: 28px auto;}
+	.prd-details .drop-bx{margin:10px 0;}
+	.prd-item-desp ul.tab li a{font-weight:bold;}
+	footer figure.ftr-logo {margin-bottom:10px;}
+	footer figure.ftr-logo img{width:120px}
+	footer h3{margin:20px 0;}
+	/*.hm-banner {background-size: cover;height: 800px;}*/
+	.add-vehicle{margin-bottom:12px;}
+	#myModal2 h3, #myModal2 h4{font-size:17px;}
+	.table-scroll th{font-size: 13px;}
+	.table-scroll td{font-size:13px;}
+	/*.hm-banner {background-size: 1097px auto;height: 400px;}*/
+	.brand.four figure img {width: auto;padding: 20px 0;left: 0;transform: inherit;height: 100%;top: 0;}
+	.search-bikes, .search-3W {padding: 20px 10px;}
+	table.dgv2{margin-left:0}
+	.user-review-blk{margin-bottom:40px}
+	.owner-signin-form .form-check .form-check-input {margin-right: 0;margin-left: 0;}
+	.owner-signin-form label, .auto-blogger-form label{padding-left: 0;}
+	.form-check {padding-left: 24px;}
+	.compare-wrap-in .add-vehicle{height:auto}
+	.add-vehicle .add-vehicle-in {position: relative;top: inherit;left: inherit;transform: none;}
+	.comparision-table-tp .compare-opt{display:none}
+	.comparision-table-tp .compare-list .compare-list-bx h4{font-size:14px;}
+	.comparision-table-tp .compare-list .compare-list-bx p{font-size:14px;}
+	.comparision-table-tp .compare-list .compare-list-bx figure img{height:auto;}
+	.comparision-table-tp .compare-list li{padding:2px}
+	.comparision-table-tp .compare-list li::before {left:-13px;background-size:22px;}
+	.comparision-table-tp .bread-comp p{font-size:14px;}
+	ul.social li a{padding-left: 38px;background-size: 30px auto;height: 32px;line-height: 32px;font-size:16px}
+	.abt h2{font-size:24px}
+	.abt h3{font-size:20px;padding-top:10px}
+	.abt h4{font-size:18px;padding-top:10px}
+	.abt ol li{font-size:15px}
+	.hm-gyaan-bx {margin-bottom:30px;}
+	.hm-gyaan-bx.gyaan.dt p {font-size: 16px;}
+	.hm-gyaan-bx.gyaan h2 {font-size: 18px;}
+	.btn-pry.write{width:100%}
+	.prd-item-desp h5{font-size:15px;line-height:23px}
+	.brands-slider .slick-slide img{width:92%;}
+	ul.social li{width:50%}
+	.hm-banner {background-size: 1097px auto;height: 400px;}
+	.hm-banner.banner1,.hm-banner.banner2 {background-size: 585px auto;}
+	.hm-banner.banner1 figure img {width: 264px;}
+	.hm-banner.banner1 .cont-blk-lft figure img {width: 416px;}
+	.hm-banner.banner2 .cont-blk-rgt figure img {width: 550px;}
+	.hm-banner.banner2 .cont-blk-lft{padding-left: 20px;}
+	.hm-banner.banner2 figure img {width: 360px;}
+	.hm-banner.banner3 {background-size: 660px auto}
+	.hm-banner.banner3 figure img {width: 163px;}
+	.hm-banner.banner3 .cont-blk-rgt{right: 7px;}
+	.hm-banner-slider ul.slick-dots li button{width: 14px;height:14px}
+	.hm-banner-slider ul.slick-dots {bottom:-3px}
+
+
+}
+
+@media(max-width:479px){
+	/*.brand figure,.brand.four figure{text-align:center;height:auto;}
+	.brand figure img,.brand.four figure img {position: relative;top: 0;transform: translateY(0%);display: inline-block;width:auto;}*/
+	.electric-bike-bx .btn-view{font-size:16px}
+	.hm-gyaan-bx h2 {font-size: 17px;}
+	.hm-gyaan-bx h3.read a {font-size: 17px;}
+	table.dgv2 td span{display:block}
+	.brands-slider .slick-slide img{width:90%;}
+	.brands-slider .slick-slide{height:280px}
+
+
+}
+
+
+@media(max-width:413px){
+	h2, .star-blk .ic-star-link {font-size: 20px;}
+	.user-review-blk p.small{font-size:14px;}
+	.user-review-blk .tab-content {margin-top: 15px;padding-top: 10px;}
+	.prd-faq .accordion-flush .accordion-item {margin-bottom: 5px;}
+	.color-blk .color-blk-in h5 {font-size: 20px;padding-left: 52px;height: 40px;line-height: 40px;margin-bottom: 15px;background-size: 40px auto;}
+	.color-blk .color-blk-in .pos h5,.color-blk .color-blk-in .neg h5{background-size: 40px auto;}
+	.form-check{padding-left:10px;}
+	.electric-bike-bx p {font-size: 16px;}
+	.electric-bike-bx{padding:10px;}
+	.popu-bx .item-desc .item-cnt,.popu-bx .item-desc .item-div{width:100%;}
+	.modal .search input {height: 45px;}
+	.modal .search button{height:40px;font-size:14px;width:68px;top:3px;}
+	.modal .search .fa-search{top:15px;}
+	.hm-banner {background-size: 960px auto;height: 350px;}
+	.brand figure img {width:100%;}
+	/*.brand.four figure img {width:100%;}*/
+	.prd-item-desp h3{font-size:18px;}
+	.three-option .form-check label{font-size:17px;}
+	.comparision-table-tp .compare-list .compare-list-bx h4{font-size:14px;}
+	.hm-banner.banner1,.hm-banner.banner2 {background-size: 510px auto;}
+	.hm-banner.banner1 .cont-blk-lft figure img {width: 377px;}
+	.hm-banner.banner1 figure img {width: 230px;}
+	.hm-banner a img {width: 115px;}
+	.hm-banner.banner1 .cont-blk-rgt figure{margin-bottom: 10px;}
+	.hm-banner.banner2 figure img {width: 330px;}
+	.hm-banner.banner2 .cont-blk-rgt figure img {width: 505px}
+	.hm-banner.banner3 {background-size: 530px auto;background-position: left -63px bottom;}
+	.hm-banner.banner3 .cont-blk-rgt figure {padding:5px}
+	.hm-banner.banner3 figure img {width: 167px;}
+
+}
+
+
+@media(max-width:374px){
+	.hm-banner.banner1 .cont-blk-lft{left:-14px}
+	.hm-banner.banner2 .cont-blk-rgt figure img {width: 480px}
+	.hm-banner.banner3 .cont-blk-rgt{right: 2px;}
+}

@@ -1,0 +1,272 @@
+body{
+    width: 100%;
+    font-family: 'open sans',sans-serif;
+}
+/* login form styles starts */
+.login{
+    width: 40%;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    background-color: rgb(147, 187, 53);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="month"],
+input[type="year"],
+input[type="number"]{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* login form styles ends */
+/* Register form styles starts */
+.register{
+    width: 40%;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    background-color: rgb(147, 187, 53);
+}
+
+/* Register form styles ends */
+/* admin add user table css styles starts */
+table{
+    width: 100%;
+}
+.button_add_user{
+    position: relative;
+    left: 90%;
+}
+.table_return_admin{
+    position: absolute;
+    left: 45%;
+}
+.section_admin{
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+/* admin add user table css styles ends */
+
+/* create new feature styling starts */
+.plus_icon{
+ padding: 5px 10PX;
+ background-color: rgb(10, 10, 10);
+ color: white;
+ border-radius: 30px;
+ -webkit-border-radius: 30px;
+ -moz-border-radius: 30px;
+ -ms-border-radius: 30px;
+ -o-border-radius: 30px;
+}
+
+input[type="text"],
+input[type="password"]{
+  background-color: #e4f5f8;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  color: rgb(10, 9, 9);
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+.upload_icon{
+ background-color: #370fdafa;
+ border: #3f2d8a;
+ padding: 10px 15px;
+ color: white;
+}
+.add_feature{
+    background-color: #e9daf5;
+    border: #e9daf5;
+}
+
+.return_admin_button{
+    padding: 10px;
+    background-color: #f5d271;
+    border: #f5d271;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* create new feature styling ends */
+
+/* input type css styles starts*/
+input[type="text"],
+input[type="password"] {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+/* input type css styles starts*/
+
+select,option{
+    background-color: #e4f5f8;
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(10, 9, 9);
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 15px 0;
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+select{
+    background-color: #7ce9a0d5;
+}
+
+.add_btn{
+    width: 10%;
+    position: relative;
+    left: 83%;
+    top: 45%;
+}
+.Feature_add_btn{
+    width: 43%;
+    position: relative;
+    left:31%;
+}
+/* input styles end */
+
+/* model page designs starts*/
+.fname{
+    position: relative;
+    top: 50px;
+}
+.fname1{
+    position: relative;
+    top:140px;
+}
+.upload_img_model{
+    position: relative;
+    top:200px;
+}
+
+.model_submit_btn{
+    position: relative;
+    top: 50px;
+}
+
+.model_rtn_admin{
+    position: relative;
+    top:50px;
+}
+
+
+/* model page designs ends */
+
+/* change model designs starts */
+.change_model_question{
+    background-color: #2481ebe8;
+    padding: 5px;
+}
+
+.save_change_btn{
+    padding: 15px 40px;
+}
+
+/* change model designs ends */
+
+/* approve reviews starts */
+.review{
+    padding-bottom: 5px;
+}
+
+/* approve reviews ends */
+
+/* existing model review styles starts */
+.review_model_btn1{
+    background-color: #3e18c9d5;
+    color: white;
+    padding: 10px 57px;
+    border: #3f2d83d5;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.review_model_btn2{
+    background-color: #3e18c9d5;
+    color: white;
+    padding: 10px 32px;
+    border: #3f2d83d5;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.review_model_btn3{
+    background-color: #3e18c9d5;
+    color: white;
+    padding: 10px 15px;
+    border: #3f2d83d5;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+/* existing model review styles ends */
+
+/* data download styles starts */
+.data_btn{
+    background-color: #3e18c9d5;
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 130px;
+    max-width: 230px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+/* data download styles ends */
+
+/* review 2 wheeler 4 Wheeler 3 wheeler cargo 3 wheeler passanger styles starts  */
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* review 2 wheeler 4 wheeler 3 wheeler cargo 3 wheelr passanger styles end */
+/* Sign in form styles starts */
+.sign-in{
+    width: 50%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+

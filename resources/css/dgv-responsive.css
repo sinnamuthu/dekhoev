@@ -1,0 +1,146 @@
+@media (min-width: 576px) {
+	.modal .modal-dialog {max-width: 90%;}
+
+}
+
+@media (min-width: 768px) {
+	.modal .modal-dialog {max-width: 740px;}
+
+}
+
+@media (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+	.modal .modal-dialog{max-width:780px;}
+}	
+
+@media (min-width: 1500px) {
+	.container{max-width:1352px;}
+
+}
+
+@media(max-width:1439px){
+	h2,.star-blk .ic-star-link {font-size: 28px;}
+	.key-feature ul li{padding:0 12px;}
+	.prd-details .drop-bx .form-select,.review .review-blk h4{font-size:18px;}
+	.prd-item-desp p{font-size:20px;}
+	.color-blk .color-blk-in .pos,.color-blk .color-blk-in .neg{padding-left:100px;}
+	.prd-item-desp h3{font-size:24px;}
+	.review .review-blk p{font-size:16px;}
+	.electric-bike-bx p{font-size:20px;}
+.section-wrap {padding-top: 50px;padding-bottom: 50px;}
+
+}
+
+@media(max-width:1365px){
+	h2,.star-blk .ic-star-link {font-size: 26px;}
+
+}
+
+@media(max-width:1199px){
+	.prd-details .drop-bx .form-select,.review .review-blk h4{font-size:16px;}
+	.key-feature ul li p{font-size:16px;}
+	.key-feature ul li {padding: 0 5px;}
+	.prd-item-desp ul.tab li a {font-size: 18px;padding-left: 12px;padding-right: 12px;}
+	.prd-item-desp h3 {font-size: 22px;margin-bottom:20px;}
+	.prd-item-desp p {font-size: 18px;}
+	.color-blk .color-blk-in .pos, .color-blk .color-blk-in .neg {padding-left: 45px;}
+
+}
+
+@media(max-width:991px){
+.prd-item-desp ul.tab li {padding-left: 5px;padding-right: 5px;}
+.prd-item-desp ul.tab li a {font-size: 16px;padding-left: 10px;padding-right: 10px;}
+.prd-item-desp .prd-item-blk2 h4{font-size:20px;}
+h2{padding-bottom:20px;}
+.navbar-light {position:relative;}
+.navbar-light .navbar-collapse{position: absolute;top: 75px;background: #e5e5e5;padding: 15px 5px;border-radius: 9px;right: 10px;}
+.navbar-light .navbar-collapse:before{position: absolute;top: -12px;border-color: #e5e5e5;content:'';border-bottom:12px solid #e5e5e5;border-left:12px solid transparent;border-right:12px solid transparent;right: 10px;}
+.nav-item{padding-bottom:8px;}
+.navbar-light .navbar-nav .nav-link{font-size:16px;padding:0 15px;}
+
+}
+
+@media(max-width:767px){
+.color-blk .color-blk-in figure img{width:100%;}
+h2, .star-blk .ic-star-link {font-size: 24px;}
+.prd-details p.price{font-size:22px;}
+.prd-details .star-blk .ic-star-link{font-size:16px;}
+.prd-item-desp ul.tab{height:auto;}
+.prd-item-desp ul.tab li {padding-left: 0;padding-right: 0px;}
+.prd-item-desp ul.tab li a {font-size: 14px;padding-left: 7px;padding-right: 7px;}
+.prd-item-desp .prd-item-blk {padding: 20px;margin-bottom: 30px;}
+.prd-item-desp h3 {font-size: 20px;margin-bottom: 15px;}
+.prd-item-desp p {font-size: 16px;line-height:26px;}
+.prd-item-desp .prd-item-blk2 h4{margin-left:0;margin-bottom:15px;background-size: 30px auto;padding-left: 35px;padding-top: 12px;height:40px;}
+table.dgv2{margin-left:30px;}
+.prd-item-desp .prd-item-blk2 .view-more{padding-left:40px;}
+.color-blk .color-blk-in .pos{margin-bottom:25px;}
+.prd-faq .accordion-button {padding: 10px;}
+.prd-faq .accordion-button::before{font-size:30px;padding-left:20px;padding-right:20px;}
+.prd-faq .accordion-body{margin-left:60px;}
+.user-review-blk .nav-tabs .nav-link {font-size: 18px;padding: 5px 20px;margin-right: 15px;}
+.btn-pry{font-size:16px;line-height:18px;}
+.btn-pry.write{padding: 10px 10px 10px 42px;}
+.btn-pry.write:before{background-size:18px auto;left:10px;}
+.user-review-blk{padding:30px 15px;}
+.electric-bike-bx p {font-size: 18px;}
+.popular-bikes.best{padding-bottom:0;}
+table.dgv3{width: calc(100% - 35px);}
+footer figure.ftr-logo img{width:100%;}
+footer ul li a{font-size:18px;}
+.section-wrap {padding-top: 40px;padding-bottom: 40px;}
+
+}
+
+@media(max-width: 600px) {
+	table.dgv3 {border: 0;}
+	table.dgv3 thead {border: none;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+	table.dgv3 tr {border-bottom: 3px solid #ddd;display: block;margin-bottom: .625em;}
+	table.dgv3 td {border-bottom: 1px solid #ddd;display: block;font-size: .8em;}
+	table.dgv3 td::before {content: attr(data-label);float: left;font-weight: bold;text-transform: uppercase;}
+	table.dgv3 td:last-child {border-bottom: 0;}
+
+}
+
+
+@media(max-width:575px){
+	.key-feature ul li {padding: 10px 20px;width:48%;}
+	.user-review-blk .nav-tabs .nav-link {font-size: 16px;padding: 5px 15px;margin-right: 10px;}
+	h2, .star-blk .ic-star-link {font-size: 22px;}
+	h2{padding-bottom:15px;}
+	.prd-faq .accordion-button::before {font-size: 22px;padding-left: 10px;padding-right: 15px;}
+	.prd-faq .accordion-body {margin-left: 50px;}
+	.color-blk .color-blk-in .pos ul li,.color-blk .color-blk-in .neg ul li{font-size:16px;}
+	.form-check{padding-left:15px;}
+	.color-blk .color-blk-in ul.var li .form-check-input {width: 35px;height: 35px;}
+	.single-prd .nav-tabs{width:100%;}
+	.single-prd .nav-tabs .nav-item {padding-bottom: 15px;display: inline-block;width: 24%;}
+	.single-prd .tab-content{width:100%;}
+	.prd-details {padding-top:40px;}
+	.prd-details .btn-pry{padding: 10px 15px 10px 47px;background-size: 28px auto;}
+	.prd-details .drop-bx{margin:10px 0;}
+	.prd-item-desp ul.tab li a{font-weight:bold;}
+	footer figure.ftr-logo {margin-bottom:10px;}
+	footer figure.ftr-logo img{width:auto;}
+	footer h3{margin:20px 0;}
+
+
+}
+
+
+@media(max-width:413px){
+	h2, .star-blk .ic-star-link {font-size: 20px;}
+	.user-review-blk p.small{font-size:14px;}
+	.user-review-blk .tab-content {margin-top: 15px;padding-top: 10px;}
+	.prd-faq .accordion-flush .accordion-item {margin-bottom: 5px;}
+	.color-blk .color-blk-in h5 {font-size: 20px;padding-left: 52px;height: 40px;line-height: 40px;margin-bottom: 15px;background-size: 40px auto;}
+	.color-blk .color-blk-in .pos h5,.color-blk .color-blk-in .neg h5{background-size: 40px auto;}
+	.form-check{padding-left:10px;}
+	.electric-bike-bx p {font-size: 16px;}
+	.electric-bike-bx{padding:10px;}
+
+
+}
+
